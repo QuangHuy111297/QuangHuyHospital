@@ -1,0 +1,96 @@
+.doctor-extra-info-container {
+    padding-left: 15px;
+
+    .content-up {
+        color: #333;
+        .text-address {
+            text-transform: uppercase;
+            color: #666;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .name-clinic {
+            padding: 5px 0;
+            font-weight: bold;
+            font-size: 13px;
+        }
+
+        .detail-address {
+            font-size: 13px;
+            font-weight: bold;
+        }
+    }
+
+    .content-down {
+        margin-top: 10px;
+        border-top: 2px solid #eee;
+
+        .title-price {
+            text-transform: uppercase;
+            color: #666;
+            padding-top: 10px;
+            font-size: 16px;
+        }
+
+        .info-gray {
+            border: 4px solid #ddd;
+            .info-up {
+                background-color: #f8f8f8;
+                padding: 10px 2px;
+
+                .detail-info {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: 10px;
+
+                    .left {
+                        font-size: 16px;
+                    }
+
+                    .right {
+                        font-size: 16px;
+                    }
+                }
+
+                .text-info-book {
+                    color: #666;
+                }
+            }
+
+            .info-down {
+                background-color: #eeeeee;
+                padding: 10px 2px;
+            }
+        }
+
+        .info-hide {
+            color: #45c3d2;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .detail-info2 {
+            margin-top: 10px;
+
+            .left {
+                font-size: 16px;
+                text-transform: uppercase;
+                color: #666;
+            }
+
+            .right {
+                font-size: 16px;
+                margin-left: 15px;
+            }
+
+            .info-show {
+                color: #45c3d2;
+                cursor: pointer;
+                margin-left: 10px;
+                font-size: 16px;
+            }
+        }
+    }
+}

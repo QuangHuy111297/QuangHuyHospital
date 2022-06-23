@@ -1,0 +1,77 @@
+div._loading_overlay_wrapper {
+    position: unset;
+
+    ._loading_overlay_overlay {
+        z-index: 9999999999999;
+    }
+}
+
+.booking-modal-container {
+    .booking-modal-content {
+        display: flex;
+        flex-direction: column;
+
+        .booking-modal-header {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+
+            .left {
+                font-size: 15px;
+                font-weight: 600;
+                color: #333;
+            }
+
+            .right {
+                float: right;
+                cursor: pointer;
+                padding: 5px;
+            }
+        }
+
+        .booking-modal-body {
+            height: 100%;
+            padding: 15px;
+
+            .doctor-info {
+            }
+
+            .price {
+                margin-top: 10px;
+            }
+
+            .row {
+                margin-top: 10px;
+            }
+        }
+
+        .booking-modal-footer {
+            padding: 10px;
+            border-top: 1px solid #eee;
+            display: flex;
+            justify-content: flex-end;
+
+            button {
+                border: none;
+                outline: none;
+                padding: 5px 8px;
+                border-radius: 3px;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+
+            .btn-booking-confirm {
+                background-color: orange;
+                margin-right: 20px;
+                min-width: 100px;
+            }
+
+            .btn-booking-cancel {
+                background-color: grey;
+                min-width: 100px;
+            }
+        }
+    }
+}

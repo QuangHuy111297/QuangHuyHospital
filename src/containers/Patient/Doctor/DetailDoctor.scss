@@ -1,0 +1,82 @@
+.doctor-detail-container {
+    margin: 0 160px;
+
+    .intro-doctor {
+        display: flex;
+
+        .content-left {
+            width: 150px;
+            height: 150px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 10px 20px;
+
+            .img-doctor-detail {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                background: center center no-repeat;
+                margin: 0 auto;
+            }
+        }
+
+        .content-right {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+
+            .up {
+                font-size: 20px;
+                font-weight: 600;
+                padding-top: 15px;
+            }
+
+            .down {
+                padding-top: 10px;
+                text-align: justify;
+
+                .like-share-plugin {
+                    margin: 10px 0 20px 0;
+                }
+            }
+        }
+    }
+
+    .schedule-doctor {
+        margin: 20px 10px;
+        display: flex;
+        min-height: 230px;
+        padding: 10px 0;
+
+        .content-left {
+            width: 50%;
+        }
+
+        .content-right {
+            width: 50%;
+        }
+    }
+}
+
+.bg-gray {
+    background-color: #f9f9f9;
+    padding: 0 170px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+    .detail-info-doctor {
+        padding-top: 30px;
+
+        h1,
+        h2,
+        h3 {
+            font-size: 17px;
+        }
+    }
+}
+
+.comment-doctor {
+    padding: 10px 100px;
+}
